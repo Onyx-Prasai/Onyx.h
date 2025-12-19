@@ -1,0 +1,51 @@
+# === Compiled Binaries & Objects ===
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dll
+*.dylib
+
+# === Build Directories ===
+# For CMake users
+build/
+bin/
+obj/
+out/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+
+# === IDE Specific Files ===
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.user
+*.suo
+*.db
+*.opendb
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# === Audio/Media Assets (Optional) ===
+# Ignore test music files so you don't commit large MP3s to Git
+*.mp3
+*.wav
+*.flac
+
+# === System Files ===
+.DS_Store
+Thumbs.db

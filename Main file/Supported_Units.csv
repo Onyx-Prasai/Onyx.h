@@ -1,0 +1,4 @@
+Dimension,Tag,Units
+Frequency,FrequencyTag,"_hz, _khz"
+Amplitude,AmplitudeTag,_db
+Time,TimeTag,"_ms, _sec"
