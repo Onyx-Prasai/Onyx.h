@@ -1,6 +1,6 @@
 # Onyx.h 
 
-It is a lightweight C++20 library designed for Compile-Time Unit Conversions. 
+It is a lightweight C++ library designed for Compile-Time Unit Conversions. 
 It is built specifically for high-performance audio applications like Digital Signal Processors where mixing up Frequencies and Amplitude which might lead into runtime errors and is hard to debug.
 
 ##  Features
