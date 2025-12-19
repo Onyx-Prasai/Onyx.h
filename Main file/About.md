@@ -5,7 +5,7 @@ onyx.h is a custom library designed specifically for audio related projects. Its
 <h3>In brief</h3>
 
 - It Creates "Smart" Numbers
-    In C++, a double is just a raw number. In your library, a Quantity is a number that "knows" what it represents.
+    In C++, a double is just a raw number. In this library a quantity "knows" what datatype it represents.
     It attaches unit Tag so the compiler knows if the number represents Hertz, Decibels, or Milliseconds.
 
 - The library prevents from performing mathematically impossible operations.
@@ -18,7 +18,7 @@ onyx.h is a custom library designed specifically for audio related projects. Its
 - It Handles Unit Scaling Automatically
     The conversion function uses std::ratio to handle metric prefixes like kilo (103) or milli (10−3).
     It calculates a factor based on the numerator and denominator of the units.
-    This allows you to write onyx::convert 
+    This allows to write onyx::convert 
     Eg: onyx::Hz (1_khz) and get 1000.0 without manually typing (somevalue* 1000.)
 
 -  It Provides "Syntax Sugar" which makes the code easier to understand<br>
